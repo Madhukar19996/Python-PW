@@ -58,4 +58,58 @@ s="hello"
 # print(s.replace("l","X")) #HeXXo worXd
 
 
-##
+##isalnum() Return True if all characters in the string are alphanumeric (no punctuation and spaces or no special characters).
+# s="ABC123"
+# print(s.isalnum()) #True
+
+# s="abc!"
+# print(s.isalnum()) #False
+
+##isalpha() Returns True if all characters in the string are in the alphabets.
+# s="Hello"
+# print(s.isalpha()) #True
+
+# s="123"
+# print(s.isalpha()) #False
+
+
+##isdecimal() Returns True if all the characters are decimal (0-9)
+# s="123"
+# print(s.isdecimal()) #True
+#
+# s="123.55"
+# print(s.isdecimal()) #False
+#
+# s="xyz"
+# print(s.isdecimal()) #False
+
+
+##isdigit() Returns True if all the characters are digits, otherwise False.
+# s="123"
+# print(s.isdigit()) #True
+#
+# s="xyz"
+# print(s.isdigit()) #False
+#
+# s="123.55"
+# print(s.isdecimal()) #False
+
+
+##isnumeric() Returns True if all the characters are numeric (0-9), otherwise False.
+#"-1" and "1.5" are NOT considered numeric values, because all the characters in the string must be numeric.
+#and the - and . are not .
+
+# s="123"
+# print(s.isnumeric()) #True
+
+# s="123.55"
+# print(s.isnumeric()) #False
+
+# s="xyz"
+# print(s.isnumeric()) #True
+
+#islower()
+#isupper()
+# s="madhukar"
+# print(s.islower()) #True
+# print(s.isupper()) #False
