@@ -34,7 +34,10 @@
 
 #find() : Searches the string  for a specified value and returns the position of where it was found.
 s="hello"
+l=len(s)
 # print(s.find("e")) #1
+for i in range(l-1,-1,-1):
+    print(s[i])
 # print(s.find("l")) #2
 # print(s.find("x")) #-1
 
